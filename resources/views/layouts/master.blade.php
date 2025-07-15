@@ -55,6 +55,8 @@
 
 
     </div>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="{{ asset('admin/assets/js/config.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

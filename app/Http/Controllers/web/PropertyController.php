@@ -26,6 +26,8 @@ class PropertyController extends Controller
 
     public function add_property(Request $request)
     {
+
+        dd($request->all());
         try {
             $validated = $request->validate([
                 'property_name' => 'required|string|max:255',
